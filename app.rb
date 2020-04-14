@@ -25,4 +25,16 @@ class App < Sinatra::Base
     end
     @render
   end
+  
+  
+  
+  get '/say/'
+  
+  
+  
+  
+  
+  
+  
+  
 end
