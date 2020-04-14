@@ -16,7 +16,7 @@ class App < Sinatra::Base
   end
   
   get '/say/:number/:phrase' do 
-    i = 0
+   
     @phrase = params [:phrase]
    @repeat = params[:number].to_i
   @render = @repeat * @phrase
