@@ -21,7 +21,7 @@ class App < Sinatra::Base
    @phrase = params[:phrase].to_s
  @phrase
  
-     @repeat.times do @phrase 
+     
       end
   end
 end
