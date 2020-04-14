@@ -20,7 +20,8 @@ class App < Sinatra::Base
    @repeat
    @phrase = params[:phrase]
  @phrase
- @repeat.times do @phrase 
- end
+ 
+     @repeat.times do @phrase 
+      end
   end
 end
