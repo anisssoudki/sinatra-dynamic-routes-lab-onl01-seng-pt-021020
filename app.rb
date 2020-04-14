@@ -19,7 +19,8 @@ class App < Sinatra::Base
     i = 0
    @repeat = params[:number].to_i
   @render = loop do params[:phrase]
-  until 
+  until i > @repeat
+end
   
   "#{@render}"
   
