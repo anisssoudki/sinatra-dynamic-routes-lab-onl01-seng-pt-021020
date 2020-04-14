@@ -16,8 +16,10 @@ class App < Sinatra::Base
   end
   
   get '/say/:number/:phrase' do 
+    i = 0
    @repeat = params[:number].to_i
- @render =  @repeat.collect {params[:phrase]}
+  @render = loop do params[:phrase]
+  until 
   
   "#{@render}"
   
